@@ -6,22 +6,30 @@ This repo contains a Jupyter notebook, along with some example data and supporti
 
 First clone the repo
 
-> git clone https://github.com/alecgt/otml-neurohackademy-2019.git
-> cd otml-neurohackademy-2019
+```
+git clone https://github.com/alecgt/otml-neurohackademy-2019.git
+cd otml-neurohackademy-2019
+```
 
 We assume that users have installed [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/#regular-installation). A Python environment containing all dependencies for the notebook can be installed with
 
-> bash otml_neuro_setup.sh
+```
+bash otml_neuro_setup.sh
+```
 
-This script creates the Conda environment specified in 'otml_neuro.yml' and downloads the more recent research code required to run the sections on Wasserstein barycenters for human brains and the multi-task Wasserstein model for group-level MEG source imaging.
+This script creates the Conda environment specified in `otml_neuro.yml` and downloads the more recent research code required to run the sections on Wasserstein barycenters for human brains and the multi-task Wasserstein model for group-level MEG source imaging.
 
 If these features are not of interest, then the Conda environment can be installed directly from the yml file with
 
-> conda env create -f otml_neuro.yml
+```
+conda env create -f otml_neuro.yml
+```
 
 Activate the Conda environment via
 
-> source activate otml_neuro
+```
+source activate otml_neuro
+```
 
 You can check for successful installation by running the first code cell of the notebook.
 
